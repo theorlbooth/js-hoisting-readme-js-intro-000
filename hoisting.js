@@ -6,3 +6,11 @@ function callMe() {
   console.log("so call me");
   return lyric;
 }
+
+function crazy() {
+  thisIsCrazy();
+
+  var thisIsCrazy = function (){
+    console.log("hey!!!")
+  }
+}
